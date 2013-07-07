@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "superpig", "superpig\superpig.csproj", "{BB3504BC-0448-45A4-9ADD-B576D857C88B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "superpig.Tests", "superpig.Tests\superpig.Tests.csproj", "{8CB798D0-302E-44A7-8418-37031FFFF222}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BB3504BC-0448-45A4-9ADD-B576D857C88B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB3504BC-0448-45A4-9ADD-B576D857C88B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB3504BC-0448-45A4-9ADD-B576D857C88B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB3504BC-0448-45A4-9ADD-B576D857C88B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CB798D0-302E-44A7-8418-37031FFFF222}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CB798D0-302E-44A7-8418-37031FFFF222}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CB798D0-302E-44A7-8418-37031FFFF222}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CB798D0-302E-44A7-8418-37031FFFF222}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
