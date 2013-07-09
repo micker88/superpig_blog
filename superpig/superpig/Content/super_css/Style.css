@@ -1,0 +1,34 @@
+﻿body{background:#000;border:0;font:14px "Trebuchet MS", Arial, Helvetica, sans-serif;color:#696969;line-height:22px;font-style:italic}
+#page1{background:#A9B5BD}
+/*.body1{background: url(../../Images/img/bg.jpg) bottom center repeat;}
+.body2{background: url(../../Images/img/bg_top2.gif) bottom repeat-x}*/
+.body-main{background: url(../../Images/img/bg.jpg) bottom center repeat;}
+.header{background: url(../../Images/img/bg_top2.gif) bottom repeat-x}
+header{ padding-top: 22px;width: 940px; margin: 0 auto;}
+.wrapper{ width:100%; overflow:hidden}
+a{color:#696969;text-decoration:underline;outline:none}
+a:hover{text-decoration:none}
+h1{float:left}
+#logo{display: block;width:288px;height:94px;text-indent:-9999px}
+#menu {float:right;padding-top:15px}
+#menu li {float:left;padding-left:51px}
+#menu li a{display:block;font:20px "Trebuchet MS", Arial, Helvetica, sans-serif;line-height:1.2em;color:#bbb;text-transform:uppercase;text-decoration:none;text-align:center;letter-spacing:-1px;height:79px;font-style:normal;font-weight:700}
+#menu li a span{font-size:13px;line-height:1.2em;color:#666666;display:block;letter-spacing:-1px;margin-top:-3px;font-weight:normal}
+#menu li a:hover, #menu .active a{color:#497e04}
+#menu li a:hover span, #menu .active a span{color:#fff}
+#menu #nav1 a{background:url(../../Images/img/menu_icon1.gif) bottom center no-repeat}
+#menu #nav1 a:hover, #menu #nav1.active a{background:url(../../Images/img/menu_icon1_active.gif) bottom center no-repeat}
+#menu #nav2 a{background:url(../../Images/img/menu_icon2.gif) bottom center no-repeat}
+#menu #nav2 a:hover, #menu #nav2.active a{background:url(../../Images/img/menu_icon2_active.gif) bottom center no-repeat}
+#menu #nav3 a{background:url(../../Images/img/menu_icon3.gif) bottom center no-repeat}
+#menu #nav3 a:hover, #menu #nav3.active a{background:url(../../Images/img/menu_icon3_active.gif) bottom center no-repeat}
+#menu #nav4 a{background:url(../../Images/img/menu_icon4.gif) bottom center no-repeat}
+#menu #nav4 a:hover, #menu #nav4.active a{background:url(../../Images/img/menu_icon4_active.gif) bottom center no-repeat}
+#menu #nav5 a{background:url(../../Images/img/menu_icon5.gif) bottom center no-repeat}
+#menu #nav5 a:hover, #menu #nav5.active a{background:url(../../Images/img/menu_icon5_active.gif) bottom center no-repeat}
+
+.main{ background-color: #A9B5BD;margin: 0 auto;width: 940px;margin-top:20px}
+.left{ float: left;width: 660px;}
+.right{float: right;width: 260px;background-color: #F7F1F1;}
+.footer{ margin: 0 auto;width: 100%;text-align: center;background-color:#A9B5BD}
+.content-about{ width: 100%;background-color:#F7F1F1;height: 400px;}

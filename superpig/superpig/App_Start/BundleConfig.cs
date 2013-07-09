@@ -38,6 +38,9 @@ namespace superpig
                         "~/Content/themes/base/jquery.ui.datepicker.css",
                         "~/Content/themes/base/jquery.ui.progressbar.css",
                         "~/Content/themes/base/jquery.ui.theme.css"));
+
+            bundles.Add(new StyleBundle("~/Content_super").Include(
+                "~/Content/super_css/Style.css", "~/Content/super_css/reset.css"));
         }
     }
 }

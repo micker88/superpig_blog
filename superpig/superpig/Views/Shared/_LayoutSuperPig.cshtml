@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    @Styles.Render("~/Content_super")
+</head>
+    <body id="page1">
+        <div class="body-main">
+            <!--header start-->
+            @RenderPage("~/Views/Shared/Header.cshtml")
+            <!--header end-->
+        </div>
+      
+            <!--Main start-->
+            <div class="main">
+                @RenderBody()
+            </div>
+            <!--Main end--> 
+           
+        
+        <div class="body-footer">
+             <!--footer start-->
+            @RenderPage("~/Views/Shared/Footer.cshtml")
+            <!--footer end-->
+        </div>
+    </body>
+</html>
